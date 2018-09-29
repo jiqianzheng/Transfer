@@ -11,3 +11,5 @@
 
 
  flask 跨域问题,一种是调用flask_cors包就像是runApi2.py,另一种方法就是用@after_request然后加上跨域信息
+把下面的模型放到当前目录下
+链接:https://pan.baidu.com/s/1mrrN71nJQgZnCPrsmT2O-g  密码:v1xk
