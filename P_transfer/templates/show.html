@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="demo1 no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/static/show/default.css" />
+
+<!-- Edit Below -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/static/show/jquery.square_menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/show/square_menu.css" />
+<link rel="stylesheet" type="text/css" href="/static/show/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/static/show/elusive-webfont.css" />
+</head>
+<body class="demo1">
+<div class="header">
+	<h1>jQuery Square Menu: More Animation Style</h1>
+	<div class="menu"> <a href="index.html">Demo 1</a> <a href="index2.html">Demo 2</a> <a href="index3.html">Demo 3</a> <a href="index4.html">Demo 4</a> <a class="active" href="index5.html">Demo 5</a> </div>
+</div>
+<div class="main">
+	<div class="page_container">
+		<div class="box"> <a href="#" class="direction open-menu"> Click Me to Open Menu </a> </div>
+		<div class="sidemenu">
+			<nav class="left"> <a href="#">Sell on the go</a> <a href="#">Sell in store</a> <a href="#">Sell Online</a> </nav>
+			<nav class="right"> <a href="#">Features</a> <a href="#">Pricing</a> <a href="#">Support Center</a> <a href="#">Square Waller</a> <a href="#">Square Market</a> <a href="#">Square Stand</a> </nav>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	  $(document).ready( function() {
+	    $(".sidemenu").square_menu({
+	      flyDirection: "bottom-left",
+	      animationStyle: "vertical",
+	      button: false,
+	    });
+
+	    $(".open-menu").click(function() {
+	      $(".sidemenu").openMenu();
+	    });
+
+	  });
+  	</script>
+</body>
+</html>

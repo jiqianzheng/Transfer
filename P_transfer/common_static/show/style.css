@@ -1,0 +1,149 @@
+/* Custom Stylesheet */
+body, html {
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      background: #86B4CC;
+}
+
+/*body, .main, html {*/
+  /*padding: 0;*/
+  /*width: 100%;*/
+  /*float: left;*/
+  /*color: black;*/
+  /*!*font-family: 'Roboto',Arial,sans-serif;*!*/
+  /*font-family:"Trebuchet MS","Myriad Pro", Helvetica, sans-serif;*/
+  /*padding-bottom: 50px;*/
+/*}*/
+
+/*body .header{*/
+  /*color: #ecf0f1;*/
+  /*margin: 25px 0;*/
+/*}*/
+
+.menu a {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  font-weight: bold;
+  border-color: white;
+}
+
+.menu a:hover {
+  background: rgba(255,255,255,0.45);
+  color: #fff;
+  border-color: white;
+}
+
+.menu a.active {
+  background: rgba(255,255,255,0.45);
+  color: #fff;
+  border-color: white;
+}
+.main p {
+  color: #2E3B4E;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 100;
+  padding: 0 20px;
+  margin: 10px auto 50px;
+  max-width: 800px;
+}
+.nav-top {
+  background: black;
+}
+.nav-top a {
+  color: #ecf0f1;
+}
+
+/* ALL DEMO */
+/*h1 {*/
+  /*color: #2E3B4E;*/
+  /*text-shadow: none;*/
+  /*!*font-family: 'Roboto',Arial,sans-serif;*!*/
+  /*font-family: "Trebuchet MS","Myriad Pro", Helvetica, sans-serif;*/
+  /*font-size: 44px;*/
+/*}*/
+
+/*h1 span {*/
+  /*font-size: 44px;*/
+  /*display: block;*/
+/*}*/
+
+body .nav-top {
+  position: absolute;
+  z-index: 11;
+  padding-top: 0;
+}
+
+body .nav-top span {
+  display: inline-block;
+}
+.box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/*h3 {*/
+  /*color: #2E3B4E;*/
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 1px;*/
+  /*font-weight: 400;*/
+  /*font-size: 28px;*/
+  /*padding-bottom: 10px;*/
+/*}*/
+
+.adswrap {
+  margin-top: 55px;
+}
+
+body .direction {
+  font-family: pacifico;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 29px;
+  font-weight: 400;
+  color: #2E3B4E;
+  font-weight: bold;
+}
+
+.menu, .header, .nav-top {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+.sm-nav:nth-child(2) {
+  background: #7AAAC4;
+}
+
+.sm-nav a{
+  text-transform: uppercase;
+}
+
+body .sm-button {
+  left: 50px;
+  top: 50px;
+  text-transform: uppercase;
+  right: auto;
+}
+.sm-menu .sm-nav:nth-child(2) .nav-inner > a{
+  font-size: 11px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/*.demo2 .sm-button {*/
+  /*top: 50%;*/
+  /*margin-top: -25px;*/
+  /*left: 50%;*/
+  /*margin-left: -27px;*/
+/*}*/
+
+/*.demo3 .sm-button {*/
+  /*top: 50%;*/
+  /*margin-top: -25px;*/
+/*}*/
